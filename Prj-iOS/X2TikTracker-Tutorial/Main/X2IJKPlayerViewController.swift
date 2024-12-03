@@ -29,7 +29,7 @@ class X2IJKPlayerViewController: UIViewController {
     }
 
     func initializeX2TikTracker() {
-        engineKit = X2TiktrackerKit(delegate: self, appId: "")
+        engineKit = X2TiktrackerKit(delegate: self, appId: KeyCenter.AppId)
         engineKit.startPlay(playUrl, share: true)
         let url = engineKit.getExPlayUrl()
         print("getExPlayUrl url = \(url)")

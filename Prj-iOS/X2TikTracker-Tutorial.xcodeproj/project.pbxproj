@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		786250622CFEBCF8008724DC /* KeyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786250612CFEBCF8008724DC /* KeyCenter.swift */; };
 		8A2B1CFA2C6605D300253C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B1CF92C6605D300253C1B /* AppDelegate.swift */; };
 		8A2B1CFC2C6605D300253C1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B1CFB2C6605D300253C1B /* SceneDelegate.swift */; };
 		8A2B1CFE2C6605D300253C1B /* X2MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B1CFD2C6605D300253C1B /* X2MainViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		5A3415A90889176B66B3B5E5 /* Pods_X2TikTracker_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_X2TikTracker_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		786250612CFEBCF8008724DC /* KeyCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCenter.swift; sourceTree = "<group>"; };
 		8A2B1CF62C6605D300253C1B /* X2TikTracker-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "X2TikTracker-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2B1CF92C6605D300253C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A2B1CFB2C6605D300253C1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				8A2B1CF92C6605D300253C1B /* AppDelegate.swift */,
 				8AD4C5422C6B57770041E5FE /* ARBaseNavigationController.swift */,
 				8A2B1CFB2C6605D300253C1B /* SceneDelegate.swift */,
+				786250612CFEBCF8008724DC /* KeyCenter.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				8A2B1CFA2C6605D300253C1B /* AppDelegate.swift in Sources */,
 				8AD4C5432C6B57770041E5FE /* ARBaseNavigationController.swift in Sources */,
 				8AD4C5462C6B57C60041E5FE /* ARExtension.swift in Sources */,
+				786250622CFEBCF8008724DC /* KeyCenter.swift in Sources */,
 				8AD4C5492C6B5EE60041E5FE /* X2AVPlayerViewController.swift in Sources */,
 				8A2B1CFC2C6605D300253C1B /* SceneDelegate.swift in Sources */,
 				8AD4C54B2C6B5F060041E5FE /* X2IJKPlayerViewController.swift in Sources */,

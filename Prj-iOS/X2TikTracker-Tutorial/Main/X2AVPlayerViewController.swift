@@ -9,6 +9,7 @@ import UIKit
 import X2TikTracker
 import AVFoundation
 
+
 class X2AVPlayerViewController: UIViewController {
     private var engineKit: X2TiktrackerKit!
     private var player: AVPlayer?
@@ -30,7 +31,7 @@ class X2AVPlayerViewController: UIViewController {
     }
     
     func initializeX2TikTracker() {
-        engineKit = X2TiktrackerKit.init(delegate: self, appId: "")
+        engineKit = X2TiktrackerKit.init(delegate: self, appId: KeyCenter.AppId)
         engineKit.startPlay(playUrl, share: true)
         let url = engineKit.getExPlayUrl()
         print("getExPlayUrl url = \(url)")

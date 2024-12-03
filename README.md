@@ -2,6 +2,26 @@
 
 X2TikTracker 是一款支持基于 P2P 技术的视频加速工具。它集成了 WebRTC 和 HLS 等技术，旨在降低视频点播或直播的带宽消耗，提升播放体验。X2TikTracker 的核心理念是利用终端设备之间的上传能力，实现带宽共享，从而降低对传统 CDN 的依赖。
 
+## 跑通示例
+
+1、[下载demo](https://github.com/TikCDN/X2TikTracker-iOS)
+
+2、配置开发着信息
+
+```text
+KeyCenter.swift
+
+在上述文件中找到AppId
+
+static let AppId: String = <#YOUR APPID#>
+```
+
+3、修改Bundle Identifier,确保跟创建应用的时候填写的值一致，否则将使用不了加速服务
+
+4、跑通后，还需在另外一台机器上跑通示例查看P2P加速效果
+
+5、也可以
+
 ## X2TikTrackerKit 类
 
 ### 类定义
@@ -83,7 +103,7 @@ X2TikTracker 是一款支持基于 P2P 技术的视频加速工具。它集成�
   - `strParam`: 参数字符串。
 - **返回**: 返回设置状态码。
 
---- 
+---
 
 
 ## X2TikTrackerDelegate 协议
