@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A2B1CFA2C6605D300253C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B1CF92C6605D300253C1B /* AppDelegate.swift */; };
+		8A2B1CFC2C6605D300253C1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B1CFB2C6605D300253C1B /* SceneDelegate.swift */; };
+		8A2B1CFE2C6605D300253C1B /* X2MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B1CFD2C6605D300253C1B /* X2MainViewController.swift */; };
+		8A2B1D012C6605D300253C1B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8A2B1D002C6605D300253C1B /* Base */; };
+		8A2B1D032C6605D500253C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A2B1D022C6605D500253C1B /* Assets.xcassets */; };
+		8A2B1D062C6605D500253C1B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8A2B1D052C6605D500253C1B /* Base */; };
+		8ACF5A1E2CFEA30C0031FDF4 /* X2TikTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACF5A1C2CFEA27B0031FDF4 /* X2TikTracker.framework */; };
+		8ACF5A1F2CFEA30C0031FDF4 /* X2TikTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACF5A1C2CFEA27B0031FDF4 /* X2TikTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8AD4C5432C6B57770041E5FE /* ARBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4C5422C6B57770041E5FE /* ARBaseNavigationController.swift */; };
+		8AD4C5462C6B57C60041E5FE /* ARExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4C5452C6B57C60041E5FE /* ARExtension.swift */; };
+		8AD4C5492C6B5EE60041E5FE /* X2AVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4C5482C6B5EE60041E5FE /* X2AVPlayerViewController.swift */; };
+		8AD4C54B2C6B5F060041E5FE /* X2IJKPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD4C54A2C6B5F060041E5FE /* X2IJKPlayerViewController.swift */; };
+		9215B7418B67401C4CE65CB3 /* Pods_X2TikTracker_Tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3415A90889176B66B3B5E5 /* Pods_X2TikTracker_Tutorial.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8AD00A592CF1D7730072BD31 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8ACF5A1F2CFEA30C0031FDF4 /* X2TikTracker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A3415A90889176B66B3B5E5 /* Pods_X2TikTracker_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_X2TikTracker_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2B1CF62C6605D300253C1B /* X2TikTracker-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "X2TikTracker-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2B1CF92C6605D300253C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A2B1CFB2C6605D300253C1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A2B1CFD2C6605D300253C1B /* X2MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = X2MainViewController.swift; sourceTree = "<group>"; };
+		8A2B1D002C6605D300253C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A2B1D022C6605D500253C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A2B1D052C6605D500253C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A2B1D072C6605D500253C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ACF5A1C2CFEA27B0031FDF4 /* X2TikTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = X2TikTracker.framework; sourceTree = "<group>"; };
+		8AD4C5422C6B57770041E5FE /* ARBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARBaseNavigationController.swift; sourceTree = "<group>"; };
+		8AD4C5452C6B57C60041E5FE /* ARExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARExtension.swift; sourceTree = "<group>"; };
+		8AD4C5482C6B5EE60041E5FE /* X2AVPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = X2AVPlayerViewController.swift; sourceTree = "<group>"; };
+		8AD4C54A2C6B5F060041E5FE /* X2IJKPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = X2IJKPlayerViewController.swift; sourceTree = "<group>"; };
+		A8955F6F12A7C8D781708852 /* Pods-X2TikTracker-Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-X2TikTracker-Tutorial.debug.xcconfig"; path = "Target Support Files/Pods-X2TikTracker-Tutorial/Pods-X2TikTracker-Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		E07F7791BD9B7222879A34C8 /* Pods-X2TikTracker-Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-X2TikTracker-Tutorial.release.xcconfig"; path = "Target Support Files/Pods-X2TikTracker-Tutorial/Pods-X2TikTracker-Tutorial.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A2B1CF32C6605D300253C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACF5A1E2CFEA30C0031FDF4 /* X2TikTracker.framework in Frameworks */,
+				9215B7418B67401C4CE65CB3 /* Pods_X2TikTracker_Tutorial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A357511E824DB5C9409C2F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8955F6F12A7C8D781708852 /* Pods-X2TikTracker-Tutorial.debug.xcconfig */,
+				E07F7791BD9B7222879A34C8 /* Pods-X2TikTracker-Tutorial.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8A2B1CED2C6605D300253C1B = {
+			isa = PBXGroup;
+			children = (
+				8A2B1CF82C6605D300253C1B /* X2TikTracker-Tutorial */,
+				8A2B1CF72C6605D300253C1B /* Products */,
+				8A2B1D0D2C66066900253C1B /* Frameworks */,
+				4A357511E824DB5C9409C2F7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8A2B1CF72C6605D300253C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A2B1CF62C6605D300253C1B /* X2TikTracker-Tutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A2B1CF82C6605D300253C1B /* X2TikTracker-Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				8AD4C5472C6B59C80041E5FE /* Main */,
+				8AD4C5442C6B577C0041E5FE /* Base */,
+				8A2B1CFF2C6605D300253C1B /* Main.storyboard */,
+				8A2B1D022C6605D500253C1B /* Assets.xcassets */,
+				8A2B1D042C6605D500253C1B /* LaunchScreen.storyboard */,
+				8A2B1D072C6605D500253C1B /* Info.plist */,
+			);
+			path = "X2TikTracker-Tutorial";
+			sourceTree = "<group>";
+		};
+		8A2B1D0D2C66066900253C1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ACF5A1C2CFEA27B0031FDF4 /* X2TikTracker.framework */,
+				5A3415A90889176B66B3B5E5 /* Pods_X2TikTracker_Tutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AD4C5442C6B577C0041E5FE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8AD4C5452C6B57C60041E5FE /* ARExtension.swift */,
+				8A2B1CF92C6605D300253C1B /* AppDelegate.swift */,
+				8AD4C5422C6B57770041E5FE /* ARBaseNavigationController.swift */,
+				8A2B1CFB2C6605D300253C1B /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8AD4C5472C6B59C80041E5FE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8A2B1CFD2C6605D300253C1B /* X2MainViewController.swift */,
+				8AD4C5482C6B5EE60041E5FE /* X2AVPlayerViewController.swift */,
+				8AD4C54A2C6B5F060041E5FE /* X2IJKPlayerViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A2B1CF52C6605D300253C1B /* X2TikTracker-Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2B1D0A2C6605D500253C1B /* Build configuration list for PBXNativeTarget "X2TikTracker-Tutorial" */;
+			buildPhases = (
+				5491366B195F47E48733EE12 /* [CP] Check Pods Manifest.lock */,
+				8A2B1CF22C6605D300253C1B /* Sources */,
+				8A2B1CF32C6605D300253C1B /* Frameworks */,
+				8A2B1CF42C6605D300253C1B /* Resources */,
+				8AD00A592CF1D7730072BD31 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "X2TikTracker-Tutorial";
+			productName = "X2TikTracker-Tutorial";
+			productReference = 8A2B1CF62C6605D300253C1B /* X2TikTracker-Tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A2B1CEE2C6605D300253C1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8A2B1CF52C6605D300253C1B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 8A2B1CF12C6605D300253C1B /* Build configuration list for PBXProject "X2TikTracker-Tutorial" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A2B1CED2C6605D300253C1B;
+			productRefGroup = 8A2B1CF72C6605D300253C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A2B1CF52C6605D300253C1B /* X2TikTracker-Tutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A2B1CF42C6605D300253C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2B1D032C6605D500253C1B /* Assets.xcassets in Resources */,
+				8A2B1D062C6605D500253C1B /* Base in Resources */,
+				8A2B1D012C6605D300253C1B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5491366B195F47E48733EE12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-X2TikTracker-Tutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A2B1CF22C6605D300253C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2B1CFE2C6605D300253C1B /* X2MainViewController.swift in Sources */,
+				8A2B1CFA2C6605D300253C1B /* AppDelegate.swift in Sources */,
+				8AD4C5432C6B57770041E5FE /* ARBaseNavigationController.swift in Sources */,
+				8AD4C5462C6B57C60041E5FE /* ARExtension.swift in Sources */,
+				8AD4C5492C6B5EE60041E5FE /* X2AVPlayerViewController.swift in Sources */,
+				8A2B1CFC2C6605D300253C1B /* SceneDelegate.swift in Sources */,
+				8AD4C54B2C6B5F060041E5FE /* X2IJKPlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A2B1CFF2C6605D300253C1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2B1D002C6605D300253C1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A2B1D042C6605D500253C1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2B1D052C6605D500253C1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A2B1D082C6605D500253C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A2B1D092C6605D500253C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A2B1D0B2C6605D500253C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8955F6F12A7C8D781708852 /* Pods-X2TikTracker-Tutorial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5543CP4MRT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "X2TikTracker-Tutorial/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.x2rtc.X2TikTracker-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8A2B1D0C2C6605D500253C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E07F7791BD9B7222879A34C8 /* Pods-X2TikTracker-Tutorial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5543CP4MRT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "X2TikTracker-Tutorial/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.x2rtc.X2TikTracker-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A2B1CF12C6605D300253C1B /* Build configuration list for PBXProject "X2TikTracker-Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2B1D082C6605D500253C1B /* Debug */,
+				8A2B1D092C6605D500253C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A2B1D0A2C6605D500253C1B /* Build configuration list for PBXNativeTarget "X2TikTracker-Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2B1D0B2C6605D500253C1B /* Debug */,
+				8A2B1D0C2C6605D500253C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A2B1CEE2C6605D300253C1B /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module X2TikTracker {
+  umbrella header "X2TikTracker.h"
+  export *
+
+  module * { export * }
+}

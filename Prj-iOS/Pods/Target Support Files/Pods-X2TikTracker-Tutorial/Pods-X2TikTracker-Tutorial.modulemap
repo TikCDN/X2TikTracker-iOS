@@ -1,0 +1,6 @@
+framework module Pods_X2TikTracker_Tutorial {
+  umbrella header "Pods-X2TikTracker-Tutorial-umbrella.h"
+
+  export *
+  module * { export * }
+}
