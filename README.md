@@ -51,7 +51,7 @@ static let AppId: String = <#YOUR APPID#>
 - (int)startPlay:(NSString *)strUrl share:(BOOL)bShare;
 ```
 - **参数**: 
-  - `strUrl`: 播放的 URL。
+  - `strUrl`: 播放的 URL，目前仅支持HLS(m3u8)和MPEG-DASH(mpd)。
   - `bShare`: 是否分享播放内容。
 - **返回**: 返回播放状态码。
 
