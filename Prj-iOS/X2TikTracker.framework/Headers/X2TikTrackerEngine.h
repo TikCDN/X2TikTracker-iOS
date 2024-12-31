@@ -107,6 +107,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (int)setParameters:(NSString *_Nonnull)param;
 
+/**
+ * 获取版本号
+ * @return 版本号。
+ */
+- (NSString *)getVersion;
+
 @end
 
 
