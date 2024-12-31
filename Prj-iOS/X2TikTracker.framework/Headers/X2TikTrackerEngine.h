@@ -1,5 +1,5 @@
 //
-//  X2TiktrackerKit.h
+//  X2TikTrackerEngine.h
 //  X2TikTracker
 //
 //  Created by 余生 on 2024/11/20.
@@ -22,46 +22,30 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  * 数据统计加载回调
- * @param jsStats 统计信息。
+ * @param stats 统计信息。
  */
-- (void)onLoadDataStats:(X2TikDataStats *)jsStats;
+- (void)onLoadDataStats:(X2TikDataStats *)stats;
 
 /**
  * 对等连接建立回调
- * @param strPeerUId 对等用户的唯一 ID。
- * @param strPeerUData 对等用户的数据。
+ * @param peerId 对等用户的唯一 ID。
+ * @param peerData 对等用户的数据。
  */
-- (void)onPeerOn:(NSString *)strPeerUId peerData:(NSString *)strPeerUData;
+- (void)onPeerOn:(NSString *)peerId peerData:(NSString *)peerData;
 
 /**
  * 对等连接断开回调
- * @param strPeerUId 对等用户的唯一 ID。
- * @param strPeerUData 对等用户的数据。
+ * @param peerId 对等用户的唯一 ID。
+ * @param peerData 对等用户的数据。
  */
-- (void)onPeerOff:(NSString *)strPeerUId peerData:(NSString *)strPeerUData;
-
-/**
- * token 续期结果回调
- * @param token 续期后的token 。
- * @param errorCode 续期操作的错误码。
- */
-- (void)onRenewTokenResult:(NSString *)token errorCode:(X2RenewTokenErrCode)errorCode;
-
-/**
- * token 即将过期回调
- */
-- (void)onTokenWillExpired;
-
-/**
- * token 已过期回调
- */
-- (void)onTokenExpired;
+- (void)onPeerOff:(NSString *)peerId peerData:(NSString *)peerData;
 
 @end
 
-// X2TikTrackerKit 类定义
-@interface X2TiktrackerKit : NSObject
+// X2TikTrackerEngine 类定义
+@interface X2TikTrackerEngine : NSObject
 
+@property (nonatomic, weak) id<X2TikTrackerDelegate> delegate;
 /**
  * 实例化方法
  * @param delegate 回调事件的代理对象。
@@ -79,11 +63,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  * 开始播放方法
- * @param strUrl 播放的 URL。
- * @param bShare 是否分享播放内容。
+ * @param url 播放的 URL。
+ * @param share 是否分享播放内容。
  * @return 返回播放状态码。
  */
-- (int)startPlay:(NSString *)strUrl share:(BOOL)bShare;
+- (int)startPlay:(NSString *)url share:(BOOL)share;
 
 /**
  * 停止播放方法
@@ -99,10 +83,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  * 设置配置方法
- * @param x2Config X2TikTConfig 配置对象。
+ * @param config X2TikTConfig 配置对象。
  * @return 返回设置状态码。
  */
-- (int)setConfig:(X2TikKitConfig *)x2Config;
+- (int)setConfig:(X2TikKitConfig *)config;
 
 /**
  * 开始分享方法
@@ -117,18 +101,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (int)stopShare;
 
 /**
- * 续期token 方法
- * @param strToken 续期的token 字符串。
- * @return 返回续期状态码。
- */
-- (int)renewToken:(NSString *)strToken;
-
-/**
  * 设置参数方法
- * @param strParam 参数字符串。
+ * @param param 参数字符串。
  * @return 返回设置状态码。
  */
-- (int)setParameters:(NSString *)strParam;
+- (int)setParameters:(NSString *_Nonnull)param;
 
 @end
 

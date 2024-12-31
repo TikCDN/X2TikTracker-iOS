@@ -10,7 +10,7 @@ import UIKit
 import X2TikTracker
 
 class X2IJKPlayerViewController: UIViewController {
-    private var engineKit: X2TiktrackerKit!
+    private var engineKit: X2TikTrackerEngine!
     private var ijkPlayer: IJKFFMoviePlayerController!
     private var videoUrl: URL?
 
@@ -29,7 +29,7 @@ class X2IJKPlayerViewController: UIViewController {
     }
 
     func initializeX2TikTracker() {
-        engineKit = X2TiktrackerKit(delegate: self, appId: KeyCenter.AppId)
+        engineKit = X2TikTrackerEngine(delegate: self, appId: KeyCenter.AppId)
         engineKit.startPlay(playUrl, share: true)
         let url = engineKit.getExPlayUrl()
         print("getExPlayUrl url = \(url)")

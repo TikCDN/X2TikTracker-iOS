@@ -4,42 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/DataChannel.framework/DataChannel</key>
-		<data>
-		Lte5BF/9G86AOM1HDbqrle0Y60c=
-		</data>
-		<key>Frameworks/DataChannel.framework/Info.plist</key>
-		<data>
-		o8qlciE0MCWV2n5SfqhDPYl1mFo=
-		</data>
-		<key>Frameworks/DataChannel.framework/_CodeSignature/CodeResources</key>
-		<data>
-		4uOEppUZeVajEF4naS2Kd/ymdOw=
-		</data>
-		<key>Frameworks/X2NgClient.framework/Info.plist</key>
-		<data>
-		6nCkijKHRvH4+AQuhLZkhori184=
-		</data>
-		<key>Frameworks/X2NgClient.framework/X2NgClient</key>
-		<data>
-		fnGXGq3TdFOeQHFrUlsuVTJ2h4k=
-		</data>
-		<key>Frameworks/X2NgClient.framework/_CodeSignature/CodeResources</key>
-		<data>
-		wnX4VrDKKBZD+DBffRcYmgzl01c=
-		</data>
-		<key>Frameworks/liteDash.framework/Info.plist</key>
-		<data>
-		BFpOBqqIRZOC2Z+EJtbuf4lCOK4=
-		</data>
-		<key>Frameworks/liteDash.framework/_CodeSignature/CodeResources</key>
-		<data>
-		YkAJ+C5/lgURhYdXHfKYzJYz1Y4=
-		</data>
-		<key>Frameworks/liteDash.framework/liteDash</key>
-		<data>
-		xr9/DGO5oCZe1DC0P+IWyTBJYWo=
-		</data>
 		<key>Headers/X2TikEnumerates.h</key>
 		<data>
 		h6jJgBfWqQzFANUGnVOk2GH2SWk=
@@ -50,11 +14,11 @@
 		</data>
 		<key>Headers/X2TikTracker.h</key>
 		<data>
-		H6rMkDe1UE/Lg2PMIfIeOtgjfrs=
+		XwYzaxzsKFAsJilO96bF57VdouA=
 		</data>
-		<key>Headers/X2TiktrackerKit.h</key>
+		<key>Headers/X2TikTrackerEngine.h</key>
 		<data>
-		ApD5oFExsrplaOF1NA/mGlAzbfs=
+		+8oLlt3q3HMYrQfpAekMpAtFjmg=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -67,69 +31,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/DataChannel.framework/DataChannel</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			M1wOxf1sT50lZSyQSAhkcsOkdv1e4oxXg7yuf7uOdrY=
-			</data>
-		</dict>
-		<key>Frameworks/DataChannel.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9uWkhTksTVv3AFu5j8laRcGShPVlSodQcRUPgLFX7xM=
-			</data>
-		</dict>
-		<key>Frameworks/DataChannel.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mZhmQ/Lwv9d08DHscIv3f0n51x6Hp1zNLWxMLRY29Vs=
-			</data>
-		</dict>
-		<key>Frameworks/X2NgClient.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3XUz/txP9vPcjgOlG9YKEFlepUE00xCeO4ImtcdIeHY=
-			</data>
-		</dict>
-		<key>Frameworks/X2NgClient.framework/X2NgClient</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			s6LNu3dw5u9lE7g1YQBxtJ7ka6Oyqb8Vt2FUmXc70/Y=
-			</data>
-		</dict>
-		<key>Frameworks/X2NgClient.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tpE0qUhwGxi1qfivmhaKqosGRAntliPBULbCDEzabjU=
-			</data>
-		</dict>
-		<key>Frameworks/liteDash.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vGtLaM2FHWxUbnmGAsHIZNACVmCKC+bh7Isbk9GZ028=
-			</data>
-		</dict>
-		<key>Frameworks/liteDash.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SRhWAyBIDxfQgIcQ59gihVM4+iYR/VU1s4hIDsgTdFs=
-			</data>
-		</dict>
-		<key>Frameworks/liteDash.framework/liteDash</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1waDzH+ptHOGWCW8Eb2a33uupNBT7Jo5GxNKRGCwuYw=
-			</data>
-		</dict>
 		<key>Headers/X2TikEnumerates.h</key>
 		<dict>
 			<key>hash2</key>
@@ -148,14 +49,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5g4HDEiazB0VtRwrDFHmwghNqczlECVPpeMtw4jT8tc=
+			PR3SzkqvG9C7Hvf3SjNookC1vRK/xDjoJesOXR1bwb8=
 			</data>
 		</dict>
-		<key>Headers/X2TiktrackerKit.h</key>
+		<key>Headers/X2TikTrackerEngine.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g6/tF2TaU+hhDnLutuLjge7xsHqJ7u2TQYdg5QHuyqs=
+			lkwY/fgGHNfzplJRvuZ0fA+D6VFWwsGTtB/n44ztWiI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

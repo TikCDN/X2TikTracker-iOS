@@ -15,6 +15,6 @@ FOUNDATION_EXPORT const unsigned char X2TikTrackerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <X2TikTracker/PublicHeader.h>
 
-#import <X2TikTracker/X2TiktrackerKit.h>
+#import <X2TikTracker/X2TikTrackerEngine.h>
 #import <X2TikTracker/X2TikEnumerates.h>
 #import <X2TikTracker/X2TikObjects.h>
